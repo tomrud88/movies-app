@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     getMovies(FEATURED_API)
-   },[])
+  },[])
 
   const getMovies=(API)=>{
     fetch(API)
